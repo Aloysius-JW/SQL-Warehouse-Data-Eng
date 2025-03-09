@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="KBOxjKc694XOIhg12iKn">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-1" value="Data architecture" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="120" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-3" value="Data load" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-5" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#C9A37E;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="120" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-6" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: rgb(201, 163, 126);&quot;&gt;Bronze&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-7" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BFBFBF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="230" width="120" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-8" value="&lt;font style=&quot;color: rgb(191, 191, 191);&quot;&gt;Silver&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-9" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="230" width="120" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-10" value="&lt;font style=&quot;color: rgb(214, 182, 86);&quot;&gt;Gold&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-11" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="720" y="230" width="120" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-12" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;End Product&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-13" value="ERP" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.file_2;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="76.25" y="290" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-14" value="CRM&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.file_2;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="76.25" y="380" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GeQ2a6r7HCaLVqQBKEyj-15" value="Object: CSV FILES&lt;div&gt;Interface: Files in Folders&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="120" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
