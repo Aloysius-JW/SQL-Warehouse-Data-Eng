@@ -12,9 +12,7 @@ RECORD_DELIMITER = '\n'
 SKIP_HEADER = 1;
 
 --Here, we create the stage for the first table. Afterwards, the data is uploaded into this stage using snowsight UI
-CREATE OR REPLACE STAGE crm_cust_info_stage;
-CREATE OR REPLACE STAGE crm_prd_info_stage;
-CREATE OR REPLACE STAGE crm_sales_details_stage;
+CREATE OR REPLACE STAGE Bronze_Stage;
 
 
 --Create the tables needed
@@ -53,7 +51,24 @@ CREATE OR REPLACE TABLE crm_sales_details
     sls_price FLOAT
 );
 
+CREATE OR REPLACE TABLE erp_cust_az12
+(
+    CID TEXT,
+    BDATE DATE,
+    GEN TEXT
+);
 
+CREATE OR REPLACE TABLE erp_loc_a101
+(
+    CID TEXT,
+    CNTRY TEXT
+);
 
-
+CREATE OR REPLACE TABLE erp_px_cat_g1v2
+(
+    ID TEXT,
+    CAT TEXT,
+    SUBCAT TEXT,
+    MAINTENANCE TEXT
+);
 
